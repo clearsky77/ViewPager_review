@@ -7,7 +7,7 @@ import com.clearsky77.viewpager_review.fragments.AgeFragment
 import com.clearsky77.viewpager_review.fragments.GreetingFragment
 import com.clearsky77.viewpager_review.fragments.NameFragment
 
-class ManinViewPagerAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm) {
+class MainViewPagerAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm) {
     // 몇 장의 뷰를 만들것인가?
     override fun getCount(): Int {
         return 3
